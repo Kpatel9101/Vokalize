@@ -1,0 +1,67 @@
+# Ignore Python virtual environment
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
+*.env
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.pid
+*.swp
+*.swo
+*.swn
+
+# Ignore compiled and distribution files
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Ignore large files like ML models
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+*.pth
+*.pt
+
+# Ignore TensorFlow & PyTorch checkpoints
+checkpoints/
+logs/
+
+# Ignore Docker files (if used)
+docker-compose.override.yml
+
+# Ignore FastAPI specific cache files
+__pycache__/
+*.db
+
+# Ignore dataset and media files (adjust as needed)
+data/
+media/
+uploads/
+
+# Ignore Git Large File Storage (LFS) files (if used)
+.gitattributes
+.gitattributes.lock
